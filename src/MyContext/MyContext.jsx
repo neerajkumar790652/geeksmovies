@@ -9,7 +9,7 @@ export const MovieProvider = ({children})=>{
     const api_key = "7e750fbc";
     useEffect(()=>{
         const Data = async() =>{
-          const response = await axios.get(`http://www.omdbapi.com/?apikey=${api_key}&s=${button}`)
+          const response = await axios.get(`https://www.omdbapi.com/?apikey=${api_key}&s=${button}`)
         //   console.log(response.data.Search)
           setMovies(response.data.Search)
         }
