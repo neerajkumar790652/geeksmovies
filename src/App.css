@@ -1,0 +1,54 @@
+.movie-posters{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap:8px;
+padding:50px;
+}
+.geek-search{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: grey;
+  color:white;
+  padding:25px
+}
+.geek-search input {
+  width:400px;
+  height: 35px;
+  padding:5px 20px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px black;
+  border-radius: 25px;
+}
+.geek-search input:hover{
+  box-shadow: 0 0 10px 5px black;
+}
+.container{
+width:250px;
+height:400px;
+box-shadow: 0 0 10px 10px black;
+margin-bottom:50px;
+}
+.container img{
+  width:250px;
+  height:400px;
+}
+.details{
+  display: flex;
+  justify-content: space-between;
+  width:800px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px 10px black;
+  padding: 30px;
+}
+.info{
+  padding:30px
+}
+.geek-search button{
+  width:150px;
+  height:35px;
+  padding:5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px 5px black;
+}
